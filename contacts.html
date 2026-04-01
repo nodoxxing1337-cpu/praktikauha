@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Физра</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-futbol"></i></div>
+                <span class="logo-text">ФИЗРА</span>
+                <span class="logo-badge">Альметьевск</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="schedule.html">Расписание</a>
+                <a href="coaches.html">Тренеры</a>
+                <a href="league.html">Лига ОЛЛФ</a>
+                <a href="events.html">Мероприятия</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+            <div class="header-actions">
+                <a href="contacts.html" class="btn btn-primary btn-sm">Бесплатный час</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <button class="mobile-menu-close" id="mobileMenuClose"><i class="fas fa-times"></i></button>
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="schedule.html">Расписание</a>
+            <a href="coaches.html">Тренеры</a>
+            <a href="league.html">Лига ОЛЛФ</a>
+            <a href="events.html">Мероприятия</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="contacts.html" class="btn btn-primary">Бесплатный час</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="booking" style="padding-top: 60px;">
+            <div class="container">
+                <div class="booking-card">
+                    <div class="booking-info">
+                        <h2>Свяжитесь с нами</h2>
+                        <p>Оставьте заявку, и мы ответим на все вопросы, подберем удобное время и расскажем об акциях.
+                        </p>
+                        <div class="booking-features">
+                            <span><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</span>
+                            <span><i class="fab fa-telegram"></i> @fizra_almet</span>
+                            <span><i class="fab fa-instagram"></i> @fizra_almet</span>
+                        </div>
+                        <div style="margin-top: 24px;">
+                            <p><i class="fas fa-map-marker-alt"></i> <strong>Адрес:</strong> г. Альметьевск, ул.
+                                Спортивная, 10</p>
+                            <p><i class="fas fa-clock"></i> <strong>Часы работы:</strong> Ежедневно 08:00 – 23:00</p>
+                        </div>
+                    </div>
+                    <form class="booking-form" action="#" method="post">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Номер телефона" required>
+                        <input type="email" placeholder="Email (необязательно)">
+                        <select>
+                            <option>Интересуюсь арендой</option>
+                            <option>Детский день рождения</option>
+                            <option>Турнир / мероприятие</option>
+                            <option>Сотрудничество / инвесторам</option>
+                        </select>
+                        <textarea rows="3" placeholder="Ваш вопрос или комментарий"
+                            style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 24px; padding: 14px; color: white;"></textarea>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить сообщение <i
+                                class="fas fa-arrow-right"></i></button>
+                        <p class="form-note">Нажимая, вы соглашаетесь с обработкой данных. Мы свяжемся в течение 15
+                            минут.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners" style="margin-top: 40px;">
+            <div class="container">
+                <div class="partners-grid">
+                    <div class="partner-card"><i class="fas fa-chart-line"></i>
+                        <h3>Инвесторам</h3>
+                        <p>Скачайте презентацию с финансовой моделью и показателями.</p><a href="#"
+                            class="btn btn-outline-dark">Скачать PDF</a>
+                    </div>
+                    <div class="partner-card"><i class="fas fa-handshake"></i>
+                        <h3>Партнёрам</h3>
+                        <p>Сотрудничество, размещение рекламы, совместные проекты.</p><a href="#"
+                            class="btn btn-outline-dark">Предложение</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon"><i class="fas fa-futbol"></i></div><span class="logo-text">ФИЗРА</span>
+                    </div>
+                    <p>Крытый футбольный манеж в Альметьевске. Два поля, комфорт, инвентарь и настоящая спортивная
+                        атмосфера.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4><a href="index.html">Главная</a><a href="services.html">Услуги</a><a
+                        href="schedule.html">Расписание</a><a href="coaches.html">Тренеры</a><a
+                        href="league.html">Лига</a><a href="events.html">Мероприятия</a><a
+                        href="contacts.html">Контакты</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4><a href="#"><i class="fas fa-map-marker-alt"></i> г. Альметьевск, ул. Спортивная,
+                        10</a><a href="tel:+7"><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</a><a href="#"><i
+                            class="fab fa-telegram"></i> @fizra_almet</a><a href="#"><i class="fab fa-instagram"></i>
+                        instagram.com/fizra_almet</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Часы работы</h4>
+                    <p>Ежедневно: 08:00 – 23:00</p>
+                    <p>Администратор: 09:00 – 21:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Футбольный манеж «Физра» — Альметьевск. Современный спорт для всех.</p>
+                <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i
+                            class="fab fa-vk"></i></a><a href="#"><i class="fab fa-telegram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
